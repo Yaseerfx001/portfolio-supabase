@@ -1,0 +1,126 @@
+{
+  "profile": {
+    "name": "Yaseer Maruf",
+    "role": "AI/DATA SCIENTIST",
+    "heroPhoto": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&h=600&fit=crop",
+    "aboutPhoto": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=700&fit=crop",
+    "shortIntro": "I build models and products that turn messy data into decisions people can trust.",
+    "shortAbout": "I'm a data scientist who likes the unglamorous parts of ML as much as the modeling — cleaning pipelines, writing tests, explaining results to people who don't care about your F1 score.",
+    "longAbout": "Over the past few years I've worked across the stack of a data science project: scoping the problem with stakeholders, wrangling and validating data, building and evaluating models, and shipping the result as something a non-technical team can actually use. I care about reproducibility and clear communication as much as model accuracy — a brilliant model nobody trusts doesn't get used. Outside of coursework and projects, I spend time in hackathons, open-source contributions, and writing about what I learn along the way.",
+    "location": "Abuja, Nigeria",
+    "education": "B.Sc. Computer Science (in progress)",
+    "focusAreas": "Machine Learning, NLP, Data Engineering",
+    "email": "yaseer.maruf@example.com",
+    "cvUrl": "/cv/yaseer-maruf-cv.pdf"
+  },
+  "stats": [
+    {
+      "label": "Projects Completed",
+      "value": 18
+    },
+    {
+      "label": "Hackathons Completed",
+      "value": 7
+    },
+    {
+      "label": "Awards Won",
+      "value": 4
+    },
+    {
+      "label": "Certifications Earned",
+      "value": 11
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/yaseermaruf",
+    "github": "https://github.com/yaseermaruf",
+    "twitter": "https://x.com/yaseermaruf",
+    "instagram": "https://instagram.com/yaseermaruf",
+    "email": "yaseer.maruf@example.com",
+    "linktree": "https://linktr.ee/yaseermaruf"
+  },
+  "footer": {
+    "copyright": "© 2026 Yaseer Maruf. All rights reserved."
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "title": "Data Science Intern",
+      "org": "Example Analytics Ltd.",
+      "period": "Jun 2025 — Aug 2025",
+      "description": "Built a churn-prediction pipeline and a dashboard the ops team still uses weekly.",
+      "tags": [
+        "Python",
+        "scikit-learn",
+        "SQL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Customer Churn Predictor",
+      "description": "End-to-end pipeline: ingestion, feature store, model, and a Streamlit dashboard for the ops team.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
+      "tags": [
+        "Python",
+        "XGBoost",
+        "Streamlit"
+      ],
+      "link": "https://github.com/yaseermaruf/churn-predictor"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "Deep Learning Specialization",
+      "issuer": "DeepLearning.AI",
+      "date": "2025",
+      "credentialUrl": "https://coursera.org/verify/example"
+    }
+  ],
+  "blog": [
+    {
+      "id": "post-1",
+      "title": "What I learned shipping my first ML model to production",
+      "date": "2026-02-14",
+      "excerpt": "The model was the easy part. Here's what actually broke.",
+      "content": "Full post content goes here — this field supports plain text or markdown, rendered on the post's page.",
+      "coverImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop"
+    }
+  ],
+  "research": [
+    {
+      "id": "res-1",
+      "title": "Low-resource NER for Nigerian Pidgin",
+      "venue": "Undergraduate Research Symposium, 2026",
+      "description": "A small-data approach to named entity recognition for a low-resource language.",
+      "link": "#"
+    }
+  ],
+  "community": [
+    {
+      "id": "com-1",
+      "title": "Organizer, Campus AI Society",
+      "period": "2025 — Present",
+      "description": "Run weekly study sessions and coordinate hackathon teams."
+    }
+  ],
+  "talks": [
+    {
+      "id": "talk-1",
+      "title": "Intro to Feature Stores",
+      "event": "University Data Science Club",
+      "date": "2026-03-01",
+      "link": "#"
+    }
+  ],
+  "honors": [
+    {
+      "id": "honor-1",
+      "title": "1st Place, National Student Data Hackathon",
+      "date": "2025",
+      "description": "Led a team of 4 to build a flood-prediction model in 36 hours."
+    }
+  ]
+}
