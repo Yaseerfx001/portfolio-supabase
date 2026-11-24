@@ -2,9 +2,16 @@ import SafeImage from "@/components/SafeImage";
 import { notFound } from "next/navigation";
 import { getContent } from "@/lib/content";
 
-export default async function BlogPostPage({ params }: { params: { id: string } }) {
+// In newer versions of Next.js (15 and 16), "params" is a Promise, so we
+// "await" it. Awaiting also works fine on older versions, so this is safe everywhere.
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
   const { blog } = await getContent();
-  const post = blog.find((p) => p.id === params.id);
+  const post = blog.find((p) => p.id === id);
 
   if (!post) notFound();
 
